@@ -11,7 +11,9 @@
     "dev": "nodemon index.js --ignore client"
   },
   "husky": {
-    "precommit": "npm test"
+    "hooks": {
+      "precommit": "npm test"
+    }
   },
   "author": "",
   "license": "ISC",
