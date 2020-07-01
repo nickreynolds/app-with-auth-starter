@@ -10,6 +10,9 @@
   "scripts": {
     "dev": "nodemon index.js --ignore client"
   },
+  "husky": {
+    "precommit": "npm test"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -39,5 +42,8 @@
     "react-router": "^3.0.2",
     "webpack": "^2.2.0",
     "webpack-dev-middleware": "^1.9.0"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
   }
 }
